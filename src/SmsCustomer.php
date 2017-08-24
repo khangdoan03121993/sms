@@ -5,7 +5,7 @@ class SmsCustomer
     public function smsCustomer($mobile, $content){
     	// Tạo mới một CURL
         $ch = curl_init();
-        $url = 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?Phone='.$mobile.'&Content='.$content.'&ApiKey=987F4671D6487060744C4E21FC0A90&SecretKey=EA6DFC765BCF3B9E23F35F84FDF2E1&SmsType=4';
+        $url = 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?Phone='.$mobile.'&Content='.$content.'&ApiKey=D9F1E89642B6211F10B6C7C1D19EE4&SecretKey=82FDB880EE8AA46FE776B96999F1C8&Brandname=CSKH-SPA&SmsType=2';
         // Cấu hình cho CURL
         curl_setopt($ch, CURLOPT_URL, $url);
 
