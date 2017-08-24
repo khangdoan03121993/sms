@@ -11,7 +11,7 @@ class SmsCustomer
 
         // print_r(substr($headers[0], 9, 3));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_FAILONERROR, 1);
+        // curl_setopt($ch, CURLOPT_FAILONERROR, 1);
         // Thực thi CURL
         $result = curl_exec($ch);
 
