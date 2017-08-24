@@ -1,7 +1,7 @@
 {
-    "name": "sms/sms-for-customer",
+    "name": "khangdoan0312993/sms/sms-customer",
     "description": "Sms For Customer",
-    "type": "library",
+    "type": "php",
     "license": "aaa",
     "authors": [
         {
