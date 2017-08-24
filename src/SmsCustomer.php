@@ -13,7 +13,10 @@ class SmsCustomer
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         // curl_setopt($ch, CURLOPT_FAILONERROR, 1);
         // Thực thi CURL
-        $result = curl_exec($ch);
+        $result = [
+        			'mobile' => $mobile,
+        			'response' => curl_exec($ch)
+        			];
 
         // Ngắt CURL, giải phóng
         curl_close($ch);
