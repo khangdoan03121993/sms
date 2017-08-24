@@ -1,5 +1,5 @@
 {
-    "name": "sms-customer",
+    "name": "sms/sms-customer",
     "description": "Sms For Customer",
     "type": "php",
     "license": "aaa",
