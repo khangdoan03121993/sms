@@ -1,5 +1,5 @@
 <?php
-namespace src\SmsCustomer;
+namespace SmsCustomer;
 class SmsCustomer
 {
     public static function test()
